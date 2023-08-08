@@ -22,8 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # (in env.py)
 
+# SECRET_KEY = in env.py
+
 # SECURITY WARNING: don't run with debug turned on in production!
 # (in env.py)
+
+# DEBUG = "True"
 
 ALLOWED_HOSTS = ['8000-timgoalen-cihellodjango-2lqua63hslv.ws-eu102.gitpod.io']
 
@@ -37,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo'
 ]
 
 MIDDLEWARE = [
