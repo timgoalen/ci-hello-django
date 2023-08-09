@@ -23,6 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # (in env.py)
 
 # SECRET_KEY = in env.py
+SECRET_KEY = []
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # (in env.py)
