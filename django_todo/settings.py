@@ -34,7 +34,8 @@ SECRET_KEY = ['']
 
 # DEBUG = "True"
 
-ALLOWED_HOSTS = ['8000-timgoalen-cihellodjango-2lqua63hslv.ws-eu102.gitpod.io']
+# ALLOWED_HOSTS = ['8000-timgoalen-cihellodjango-2lqua63hslv.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = ['tmggeu-django-todo-app.herokuapp.com']
 
 
 # Application definition
